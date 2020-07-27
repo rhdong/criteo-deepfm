@@ -197,7 +197,7 @@ class Trainer(object):
         "update": update,
         "predict": predict,
         "label": labels,
-        "size": deep_sparse_weights.size(),
+        "size": deep_dynamic_variables.size(),
     }
 
 
